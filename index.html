@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/hw4styles.css" />
+    <title>my page</title>
+  </head>
+  <body>
+    <div>
+      <p>
+        Застосовується до тегів p, вкладених у div, на першому рівні, вага 2
+      </p>
+      <section>
+        <h2>section</h2>
+        <p>онук</p>
+      </section>
+    </div>
+
+    <h1>тег</h1>
+
+    <h1 class="class">клас</h1>
+
+    <form>
+      <label for="date">date</label> <br />
+      <input id="date" type="date" />
+
+      <div>
+        <input type="datetime-local" />
+        <input type="datetime-local" />
+        <input type="date" />
+      </div>
+    </form>
+    <div>
+      <p>вкладені/контекстні селектори.</p>
+    </div>
+
+    <div><p>child</p></div>
+
+    <div>
+      <section>
+        <h2>Section</h2>
+        <div>
+          <p>grand child</p>
+        </div>
+      </section>
+    </div>
+
+    <div>
+      <p>послідовність селекторів 1</p>
+      <span>Елемент span</span>
+      <p>послідовність селекторів 2</p>
+      <p>послідовність селекторів 3</p>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox" />
+    </div>
+
+    <div class="checkbox">
+      <input id="checkbox" type="checkbox" />
+    </div>
+
+    <div>
+      <ul>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+div > p {
+  background-color: yellow;
+}
+
+h1 {
+  color: aquamarine;
+}
+
+.class {
+  color: chocolate;
+  background-color: blueviolet;
+}
+
+#date {
+  color: cornflowerblue;
+  background-color: brown;
+}
+input[type*="local"] {
+  background-color: brown;
+}
+
+input[type="date"] {
+  background-color: rgb(230, 23, 137);
+}
+
+div p {
+  color: greenyellow;
+}
+
+span ~ p {
+  color: coral;
+}
+
+div.checkbox {
+  background-color: bisque;
+}
+input#checkbox {
+  background-color: coral;
+}
+div ul li {
+  color: blue;
+}
