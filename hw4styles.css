@@ -7,8 +7,9 @@ h1 {
 }
 
 .class {
-  color: chocolate;
+  color: rgb(69, 235, 8);
   background-color: blueviolet;
+  padding: auto;
 }
 
 #date {
